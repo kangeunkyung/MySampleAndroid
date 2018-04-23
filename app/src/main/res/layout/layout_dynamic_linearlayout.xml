@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_uplus_stock_agree"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="18.67dp"
+        android:layout_marginRight="18.67dp"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/ll_uplus_stock_agree_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- 체크박스 -->
+            <ImageView
+                android:id="@+id/iv_agree"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/btn_check_02_n"/>
+
+
+            <!-- 텍스트 -->
+            <TextView
+                android:id="@+id/tv_uplus_stock_agree_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18.67dp"
+                android:text="서비스 이용약관 (필수)"
+                android:textColor="#222222"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_uplus_stock_agree_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/iv_uplus_stock_agree_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_arrow_06_n" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

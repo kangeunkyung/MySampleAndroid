@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="array_agree_terms">
+    <item>U+인증앱</item>
+    <item>U+신용관리</item>
+    <item>U+스탁</item>
+    </string-array>
+
+
+
+    <string-array name="array_agree_terms_uplus">
+    <item>U+인증 서비스 이용약관</item>
+    <item>개인정보 수집 및 이용 동의</item>
+    <item>개인정보의 제3자 제공 동의</item>
+    <item>광고수신동의</item>
+    <item>개인정보 취급 위탁 동의</item>
+    </string-array>
+
+
+
+    <string-array name="array_agree_terms_credit">
+    <item>웹서비스 제공동의</item>
+    <item>신용변동 알림 수신동의</item>
+    <item>개인정보 수집/이용동의</item>
+    <item>신용인증송부 동의</item>
+    <item>개인정보 제3자 제공동의</item>
+    </string-array>
+
+
+
+    <string-array name="array_agree_terms_stock">
+    <item>개인정보 제2자 제공동의</item>
+    <item>개인정보처리방침</item>
+    <item>서비스이용약관</item>
+    <item>주식정보 앱푸시 수신동의</item>
+    </string-array>
+
+
+</resources>
